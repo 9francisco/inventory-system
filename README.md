@@ -9,8 +9,8 @@ The Inventory System is a Java application built using Java Swing for the graphi
 - **Report Generation:** View reports detailing product information and warehouse status.
 
 ## Requirements
-- Java 1.8 or higher
-- Eclipse IDE (or any other Java IDE)
+- Java 1.8
+- Eclipse IDE
 - JDBC driver compatible with your chosen database (MySQL, Oracle, etc.)
 
 ## Project Structure
