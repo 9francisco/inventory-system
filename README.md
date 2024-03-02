@@ -24,6 +24,3 @@ The project follows the MVC (Model-View-Controller) design pattern:
 2. Import the project into your preferred Java IDE.
 3. Configure the database connection details in the `config.properties` file.
 4. Build and run the application.
-
-## Database Setup
-- Update the `config.properties` file with your database connection details.
