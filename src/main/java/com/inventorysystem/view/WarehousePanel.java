@@ -49,6 +49,7 @@ public class WarehousePanel extends JPanel {
 		JPanel formPanel = new JPanel(new GridLayout(0, 2, 5, 5));
 		nameField = new JTextField();	
 		NumberFormat integerFormat = NumberFormat.getIntegerInstance();
+		integerFormat.setGroupingUsed(false);
 		NumberFormatter formatter = new NumberFormatter(integerFormat);
 		formatter.setValueClass(Integer.class);
         formatter.setMinimum(0);

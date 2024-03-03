@@ -56,6 +56,7 @@ public class ProductPanel extends JPanel {
 		JPanel formPanel = new JPanel(new GridLayout(0, 2));
 		nameField = new JTextField();
 		NumberFormat integerFormat = NumberFormat.getIntegerInstance();
+		integerFormat.setGroupingUsed(false);
 		NumberFormatter formatter = new NumberFormatter(integerFormat);
 		formatter.setValueClass(Integer.class);
 		totalQtyField = new JFormattedTextField(formatter);
